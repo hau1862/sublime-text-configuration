@@ -1,0 +1,12 @@
+{
+	"scope": "source.css",
+	"completions": [
+		{
+			"trigger": "init",
+			"annotation": "css:init",
+			"contents": "body {\n\tmargin: 0px;\n}\n\n* {\n\tbox-sizing: border-box;\n\tfont-family: Arial;\n}\n\n",
+			"kind": "snippet",
+			"details": "Initialize css document"
+		}
+	]
+}

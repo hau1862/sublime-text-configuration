@@ -1,0 +1,14 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"font_face": "Fira Code",
+	"font_size": 10.5,
+	"theme": "auto",
+	"color_scheme": "Monokai.sublime-color-scheme",
+	"ensure_newline_at_eof_on_save": true,
+	"word_wrap": false,
+	"auto_complete_triggers": [{"selector": "text.html, text.xml"}],
+	"ignored_packages": [
+		"Vintage",
+	],
+}

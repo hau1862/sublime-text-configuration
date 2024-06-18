@@ -1,0 +1,474 @@
+{
+	"scope": "source.js",
+	"completions": [
+		{
+			"trigger": "at()",
+			"annotation": "array.method(): item",
+			"contents": "at(${1})",
+			"kind": "function",
+			"details": "array.at(index) : immutate"
+		},
+		{
+			"trigger": "concat()",
+			"annotation": "array.method(): array",
+			"contents": "concat(${1})",
+			"kind": "function",
+			"details": "array.concat(...arrays) : immutate"
+		},
+		{
+			"trigger": "every()",
+			"annotation": "array.method(): boolean",
+			"contents": "every(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.every((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "fill()",
+			"annotation": "array.method(): array",
+			"contents": "fill(${1})",
+			"kind": "function",
+			"details": "array.fill(value, startIndex, endIndex) : mutate"
+		},
+		{
+			"trigger": "filter()",
+			"annotation": "array.method(): array",
+			"contents": "filter(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.filter((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "find()",
+			"annotation": "array.method(): item",
+			"contents": "find(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.find((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "findLast()",
+			"annotation": "array.method(): item",
+			"contents": "findLast(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.findLast((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "findIndex()",
+			"annotation": "array.method(): index",
+			"contents": "findIndex(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.findIndex((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "findLastIndex()",
+			"annotation": "array.method(): index",
+			"contents": "findLastIndex(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.findLastIndex((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "flat()",
+			"annotation": "array.method(): array",
+			"contents": "flat(${1})",
+			"kind": "function",
+			"details": "array.flat(depth) : immutate"
+		},
+		{
+			"trigger": "flatMap()",
+			"annotation": "array.method(): array",
+			"contents": "flatMap(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.flatMap((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "forEach()",
+			"annotation": "array.method(): undefined",
+			"contents": "forEach(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.forEach((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "includes()",
+			"annotation": "array.method(): boolean",
+			"contents": "includes(${1})",
+			"kind": "function",
+			"details": "array.includes(searchItem, startIndex) : immutate"
+		},
+		{
+			"trigger": "indexOf()",
+			"annotation": "array.method(): index",
+			"contents": "indexOf(${1})",
+			"kind": "function",
+			"details": "array.indexOf(searchItem, startIndex) : immutate"
+		},
+		{
+			"trigger": "join()",
+			"annotation": "array.method(): string",
+			"contents": "join(${1})",
+			"kind": "function",
+			"details": "array.join(separator) : immutate"
+		},
+		{
+			"trigger": "keys()",
+			"annotation": "array.method(): iterator",
+			"contents": "keys()",
+			"kind": "function",
+			"details": "array.keys() : immutate"
+		},
+		{
+			"trigger": "lastIndexOf()",
+			"annotation": "array.method(): index",
+			"contents": "lastIndexOf(${1})",
+			"kind": "function",
+			"details": "array.lastIndexOf(searchItem, endIndex) : immutate"
+		},
+		{
+			"trigger": "map()",
+			"annotation": "array.method(): array",
+			"contents": "map(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.map((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "pop()",
+			"annotation": "array.method(): item",
+			"contents": "pop()",
+			"kind": "function",
+			"details": "array.pop() : mutate"
+		},
+		{
+			"trigger": "push()",
+			"annotation": "array.method(): length",
+			"contents": "push(${1})",
+			"kind": "function",
+			"details": "array.push(...items) : mutate"
+		},
+		{
+			"trigger": "reduce()",
+			"annotation": "array.method(): ...",
+			"contents": "reduce(function (accumulator, item) {\n\t${1}\n}, 0)",
+			"kind": "function",
+			"details": "array.reduce((accumulator, item, index, array) => {}, initialValue) : immutate"
+		},
+		{
+			"trigger": "reduceRight()",
+			"annotation": "array.method(): ...",
+			"contents": "reduceRight(function (accumulator, item) {\n\t${1}\n}, 0)",
+			"kind": "function",
+			"details": "array.reduceRight((accumulator, item, index, array) => {}, initialValue) : immutate"
+		},
+		{
+			"trigger": "reverse()",
+			"annotation": "array.method(): array",
+			"contents": "reverse()",
+			"kind": "function",
+			"details": "array.reverse() : mutate"
+		},
+		{
+			"trigger": "shift()",
+			"annotation": "array.method(): item",
+			"contents": "shift()",
+			"kind": "function",
+			"details": "array.shift() : mutate"
+		},
+		{
+			"trigger": "slice()",
+			"annotation": "array.method(): array",
+			"contents": "slice(${1})",
+			"kind": "function",
+			"details": "array.slice(startIndex, endIndex) : immutate"
+		},
+		{
+			"trigger": "some()",
+			"annotation": "array.method(): boolean",
+			"contents": "some(function (item) {\n\t${1}\n})",
+			"kind": "function",
+			"details": "array.some((item, index, array) => {}, thisArg) : immutate"
+		},
+		{
+			"trigger": "sort()",
+			"annotation": "array.method(): array",
+			"contents": "sort()",
+			"kind": "function",
+			"details": "array.sort() : mutate"
+		},
+		{
+			"trigger": "splice()",
+			"annotation": "array.method(): array",
+			"contents": "splice(${1})",
+			"kind": "function",
+			"details": "array.splice(startIndex, deleteCount, ...insertItems) : mutate"
+		},
+		{
+			"trigger": "unshift()",
+			"annotation": "array.method(): length",
+			"contents": "unshift(${1})",
+			"kind": "function",
+			"details": "array.unshift(...items) : mutate"
+		},
+		{
+			"trigger": "values()",
+			"annotation": "array.method(): iterator",
+			"contents": "values()",
+			"kind": "function",
+			"details": "array.values() : immutate"
+		},
+		{
+			"trigger": "length",
+			"annotation": "array.property: length",
+			"contents": "length",
+			"kind": "variable",
+			"details": "array.length : immutable"
+		},
+		{
+			"trigger": "bind()",
+			"annotation": "function.method(): function",
+			"contents": "bind(${1})",
+			"kind": "function",
+			"details": "function.bind(thisArg, ...args) : immutate"
+		},
+		{
+			"trigger": "call()",
+			"annotation": "function.method(): ...",
+			"contents": "call(${1})",
+			"kind": "function",
+			"details": "function.call(thisArg, ...args) : immutate"
+		},
+		{
+			"trigger": "apply()",
+			"annotation": "function.method(): ...",
+			"contents": "apply(${1})",
+			"kind": "function",
+			"details": "function.apply(thisArg, argsArray) : immutate"
+		},
+		{
+			"trigger": "arguments",
+			"annotation": "function.property: array-like",
+			"contents": "arguments",
+			"kind": "variable",
+			"details": "function.arguments : mutable"
+		},
+		{
+			"trigger": "caller",
+			"annotation": "function.property: string",
+			"contents": "caller",
+			"kind": "variable",
+			"details": "function.caller : mutable"
+		},
+		{
+			"trigger": "displayName",
+			"annotation": "function.property: string",
+			"contents": "displayName",
+			"kind": "variable",
+			"details": "function.displayName : mutable"
+		},
+		{
+			"trigger": "length",
+			"annotation": "function.property: length",
+			"contents": "length",
+			"kind": "variable",
+			"details": "function.length : immutable"
+		},
+		{
+			"trigger": "name",
+			"annotation": "function.property: string",
+			"contents": "name",
+			"kind": "variable",
+			"details": "function.name : immutable"
+		},
+		{
+			"trigger": "toString()",
+			"annotation": "object.method(): string",
+			"contents": "toString()",
+			"kind": "function",
+			"details": "object.toString() : immutate"
+		},
+		{
+			"trigger": "at()",
+			"annotation": "string.method(): string",
+			"contents": "at(${1})",
+			"kind": "function",
+			"details": "string.at(index) : immutate"
+		},
+		{
+			"trigger": "charAt()",
+			"annotation": "string.method(): string",
+			"contents": "charAt(${1})",
+			"kind": "function",
+			"details": "string.charAt(index) : immutate"
+		},
+		{
+			"trigger": "charCodeAt()",
+			"annotation": "string.method(): number",
+			"contents": "charCodeAt(${1})",
+			"kind": "function",
+			"details": "string.charCodeAt(index) : immutate"
+		},
+		{
+			"trigger": "concat()",
+			"annotation": "string.method(): string",
+			"contents": "concat(${1})",
+			"kind": "function",
+			"details": "string.concat(...arrays) : immutate"
+		},
+		{
+			"trigger": "endsWith()",
+			"annotation": "string.method(): boolean",
+			"contents": "endsWith(${1})",
+			"kind": "function",
+			"details": "string.endsWith(searchString, endIndex) : immutate"
+		},
+		{
+			"trigger": "includes()",
+			"annotation": "string.method(): boolean",
+			"contents": "includes(${1})",
+			"kind": "function",
+			"details": "string.includes(searchString, startIndex) : immutate"
+		},
+		{
+			"trigger": "indexOf()",
+			"annotation": "string.method(): index",
+			"contents": "indexOf(${1})",
+			"kind": "function",
+			"details": "string.indexOf(searchString, startIndex) : immutate"
+		},
+		{
+			"trigger": "lastIndexOf()",
+			"annotation": "string.method(): index",
+			"contents": "lastIndexOf(${1})",
+			"kind": "function",
+			"details": "string.lastIndexOf(searchString, endIndex) : immutate"
+		},
+		{
+			"trigger": "match()",
+			"annotation": "string.method(): boolean",
+			"contents": "match(${1})",
+			"kind": "function",
+			"details": "string.match(pattern) : immutate"
+		},
+		{
+			"trigger": "matchAll()",
+			"annotation": "string.method(): iterator",
+			"contents": "matchAll(${1})",
+			"kind": "function",
+			"details": "string.matchAll(pattern) : immutate"
+		},
+		{
+			"trigger": "padEnd()",
+			"annotation": "string.method(): string",
+			"contents": "padEnd(${1})",
+			"kind": "function",
+			"details": "string.padEnd(targetLength, padString) : immutate"
+		},
+		{
+			"trigger": "padStart()",
+			"annotation": "string.method(): string",
+			"contents": "padStart(${1})",
+			"kind": "function",
+			"details": "string.padStart(targetLength, padString) : immutate"
+		},
+		{
+			"trigger": "repeat()",
+			"annotation": "string.method(): string",
+			"contents": "repeat(${1})",
+			"kind": "function",
+			"details": "string.repeat(count) : immutate"
+		},
+		{
+			"trigger": "replace()",
+			"annotation": "string.method(): string",
+			"contents": "replace(${1})",
+			"kind": "function",
+			"details": "string.replace(pattern, replacement) : immutate"
+		},
+		{
+			"trigger": "replaceAll()",
+			"annotation": "string.method(): string",
+			"contents": "replaceAll(${1})",
+			"kind": "function",
+			"details": "string.replaceAll(pattern, replacement) : immutate"
+		},
+		{
+			"trigger": "search()",
+			"annotation": "string.method(): string",
+			"contents": "search(${1})",
+			"kind": "function",
+			"details": "string.search(pattern) : immutate"
+		},
+		{
+			"trigger": "slice()",
+			"annotation": "string.method(): string",
+			"contents": "slice(${1})",
+			"kind": "function",
+			"details": "string.slice(startIndex, endIndex) : immutate"
+		},
+		{
+			"trigger": "split()",
+			"annotation": "string.method(): array",
+			"contents": "split(${1})",
+			"kind": "function",
+			"details": "string.split(separator, limit) : immutate"
+		},
+		{
+			"trigger": "startsWith()",
+			"annotation": "string.method(): boolean",
+			"contents": "startsWith(${1})",
+			"kind": "function",
+			"details": "string.startsWith(searchString, startIndex) : immutate"
+		},
+		{
+			"trigger": "substring()",
+			"annotation": "string.method(): string",
+			"contents": "substring(${1})",
+			"kind": "function",
+			"details": "string.substring(startIndex, endIndex) : immutate"
+		},
+		{
+			"trigger": "toUpperCase()",
+			"annotation": "string.method(): string",
+			"contents": "toUpperCase()",
+			"kind": "function",
+			"details": "string.toUpperCase() : immutate"
+		},
+		{
+			"trigger": "toLowerCase()",
+			"annotation": "string.method(): string",
+			"contents": "toLowerCase()",
+			"kind": "function",
+			"details": "string.toLowerCase() : immutate"
+		},
+		{
+			"trigger": "trim()",
+			"annotation": "string.method(): string",
+			"contents": "trim()",
+			"kind": "function",
+			"details": "string.trim() : immutate"
+		},
+		{
+			"trigger": "trimEnd()",
+			"annotation": "string.method(): string",
+			"contents": "trimEnd()",
+			"kind": "function",
+			"details": "string.trimEnd() : immutate"
+		},
+		{
+			"trigger": "trimStart()",
+			"annotation": "string.method(): string",
+			"contents": "trimStart()",
+			"kind": "function",
+			"details": "string.trimStart() : immutate"
+		},
+		{
+			"trigger": "valueOf()",
+			"annotation": "string.method(): string",
+			"contents": "valueOf()",
+			"kind": "function",
+			"details": "string.valueOf() : immutate"
+		},
+		{
+			"trigger": "length",
+			"annotation": "string.property: length",
+			"contents": "length",
+			"kind": "variable",
+			"details": "string.length : immutable"
+		}
+	]
+}
